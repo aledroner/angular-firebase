@@ -2,16 +2,16 @@
 Crea rápidamente una aplicación con AngujarJS y Firebase
 
 ## Instalación
-##### 1. Clona este repositorio en tu local:
+#### 1. Clona este repositorio en tu local:
   ```shell
   $ git clone https://github.com/aledroner/angular-firebase.git
   ```
 
-##### 2. Create una cuenta en firebase https://firebase.google.com
+#### 2. Create una cuenta en firebase https://firebase.google.com
 
-##### 3. Create un nuevo proyecto desde la consola de Firebase
+#### 3. Create un nuevo proyecto desde la consola de Firebase
 
-##### 4. Conecta Firebase con el frontend de tu aplicación
+#### 4. Conecta Firebase con el frontend de tu aplicación
   1. Click en “Agregar Firebase a tu app web”
   2. Copia el contenido de la ventana emergente SIN LOS TAGS de los CDN y pégalo en `public/app.js`. Debería parecerse a esto:
 
@@ -43,7 +43,7 @@ tu-aplicacion-firebase
 ## Desplegar aplicación
 Ahora subiremos los archivos al hosting de firebase
 
-##### 1. Inicializar la aplicación. Deberás estar dentro del directorio raíz de tu app.
+#### 1. Inicializar la aplicación. Deberás estar dentro del directorio raíz de tu app.
   ```shell
   $ firebase init
   ```
@@ -55,7 +55,7 @@ Ahora subiremos los archivos al hosting de firebase
   * What do you want to use as your public directory? public
   * Configure as a single-page app (rewrite all urls to /index.html)? No
 
-##### 2. Despliega la aplicación
+#### 2. Despliega la aplicación
   ```shell
   $ firebase deploy
   ```
