@@ -27,7 +27,7 @@ var config = {
 };
 firebase.initializeApp(config);
 ```
-  
+
 ## Configuración de la base de datos
 Para que funcione correctamente el ejemplo deberás tener una estructura de datos tal que así en tu base de datos de firebase:
 ```
@@ -48,12 +48,14 @@ Ahora subiremos los archivos al hosting de firebase
   $ firebase init
   ```
   Se iniclializará la consola de FIREBASE. Elige las siguiente opciones:
-  * Are you ready to proceed? Yes 
+  * Are you ready to proceed? Yes
   * Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confi rm your choices. Database: Deploy Firebase Realtime Database Rules, Hosting: Configure and deploy Firebase Hosting site
   * Select a default Firebase project for this directory: TU_PROYECTO_FIREBASE
   * What file should be used for Database Rules? database.rules.json
   * What do you want to use as your public directory? public
   * Configure as a single-page app (rewrite all urls to /index.html)? No
+  * File public/404.html already exists. Overwrite? No
+  * File public/index.html already exists. Overwrite? No
 
 #### 2. Despliega la aplicación
   ```shell
