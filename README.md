@@ -1,4 +1,4 @@
-# angular-firebase
+# angularjs-firebase
 Crea rápidamente una aplicación con AngujarJS y Firebase
 
 ## Instalación
